@@ -1,5 +1,13 @@
 import { useTranslation } from 'react-i18next'
 
+import {
+	Select,
+	SelectContent,
+	SelectItem,
+	SelectTrigger,
+	SelectValue
+} from '@/components/ui/select'
+
 export default function LanguageSwitcher() {
 	const { i18n } = useTranslation()
 
@@ -7,16 +15,19 @@ export default function LanguageSwitcher() {
 		i18n.changeLanguage(language)
 	}
 
-	const handleLanguageChange = (e) => {
-		changeLanguage(e.target.value)
+	const handleLanguageChange = (value) => {
+		changeLanguage(value)
 	}
 
 	return (
-		<div className='language-switcher'>
-			<select onChange={handleLanguageChange} defaultValue={i18n.language}>
-				<option value='en'>English</option>
-				<option value='de'>German</option>
-			</select>
-		</div>
+		<Select onValueChange={handleLanguageChange}>
+			<SelectTrigger className='w-[180px]'>
+				<SelectValue placeholder='Language' />
+			</SelectTrigger>
+			<SelectContent>
+				<SelectItem value='en'>English</SelectItem>
+				<SelectItem value='de'>German</SelectItem>
+			</SelectContent>
+		</Select>
 	)
 }

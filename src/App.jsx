@@ -2,12 +2,13 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 import { TodoPage } from './pages/Todo'
 import { Home } from './pages/Home'
 import './styles.css'
+import LanguageSwitcher from './components/LanguageSwitcher'
 
 export default function App() {
 	return (
 		<>
 			<header>
-				<nav class='navbar'>
+				<nav className='navbar'>
 					<ul>
 						<li>
 							<NavLink to='/'>Home</NavLink>
@@ -15,6 +16,7 @@ export default function App() {
 						<li>
 							<NavLink to='/todo'>Todo</NavLink>
 						</li>
+						<LanguageSwitcher />
 					</ul>
 				</nav>
 			</header>

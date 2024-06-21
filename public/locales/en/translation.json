@@ -1,0 +1,19 @@
+{
+	"homepage": {
+		"titleMain": "Welcome to the Homepage",
+		"titleAbout": "About Us",
+		"titleServices": "Services",
+		"titleContact": "Contact Us",
+		"descMain": "This is a simple paragraph to demonstrate text content.",
+		"descAbout": "Our company values innovation and customer satisfaction.",
+		"descContact": "If you have any questions, feel free to reach out.",
+		"listService1": "Web Development",
+		"listService2": "Mobile App Development",
+		"listService3": "Cloud Services",
+		"btnLearnMore": "Learn More",
+		"copyright": "All rights reserved.",
+		"linkPrivacy": "Privacy Policy",
+		"linkTOS": "Terms of Service",
+		"linkContact": "Contact"
+	}
+}

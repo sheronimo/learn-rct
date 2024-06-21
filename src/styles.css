@@ -3,13 +3,6 @@
 * {
 	font-family: 'Poppins', sans-serif;
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-
-ol,
-ul {
-	list-style: none;
 }
 
 a {
@@ -21,6 +14,8 @@ body {
 	background: #333;
 	color: #fff;
 	min-height: 100vh;
+	padding: 0;
+	margin: 0;
 }
 
 main {
@@ -35,10 +30,11 @@ main {
 	background-color: #1a1a1a;
 	display: flex;
 	justify-content: flex-end;
-	padding: 24px;
+	padding-inline: 24px;
 }
 
 .navbar ul {
+	list-style: none;
 	display: flex;
 	align-items: center;
 	gap: 16px;
@@ -174,4 +170,9 @@ main {
 
 .list li:has(input:checked) label:hover::before {
 	background: hsl(200, 100%, 30%);
+}
+
+.footer-nav {
+	display: flex;
+	gap: 16px;
 }

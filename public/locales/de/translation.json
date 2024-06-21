@@ -1,0 +1,19 @@
+{
+	"homepage": {
+		"titleMain": "Willkommen auf der Homepage",
+		"titleAbout": "Über uns",
+		"titleServices": "Dienstleistungen",
+		"titleContact": "Kontaktiere uns",
+		"descMain": "Dies ist ein einfacher Absatz zur Demonstration von Textinhalten.",
+		"descAbout": "Unser Unternehmen legt Wert auf Innovation und Kundenzufriedenheit.",
+		"descContact": "Wenn Sie Fragen haben, können Sie sich gerne an uns wenden.",
+		"listService1": "Web Entwicklung",
+		"listService2": "Entwicklung mobiler Apps",
+		"listService3": "Cloud Services",
+		"btnLearnMore": "Erfahren Sie mehr",
+		"copyright": "Alle Rechte vorbehalten.",
+		"linkPrivacy": "Datenschutzrichtlinie",
+		"linkTOS": "Nutzungsbedingungen",
+		"linkContact": "Kontaktiere"
+	}
+}
